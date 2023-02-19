@@ -1,0 +1,117 @@
+body {
+    font-family: 'Poppins';
+    max-width: 1440px;
+    background-position: center top;
+    /* background-color: black; */
+}
+
+.cabecalho {
+    /* background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%); */
+    display: flex;
+    justify-content: space-between;
+    width: 1365px;
+    height: 60px;
+
+    margin: 0 auto;
+    position: absolute;
+
+
+}
+
+.cabecalho .logo {
+    width: 35px;
+    padding: 12px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    /* background-color: red; */
+}
+.cabecalho nav li a {
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 20px;
+    transition: 0.2;
+    text-decoration: none;
+}
+.cabecalho nav li a:hover {
+    background-color: blue;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+.container {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    height: calc(100vh - 60px);
+    margin: 0 auto;
+    align-items: center;
+    padding: 50px 30px 10px 100px;
+
+}
+.container .informacao {
+    text-align: center;
+    width: 85%;
+    font-size: 18px;
+    margin: 0 0 0px 50px;
+    
+    
+    
+}
+.container .logo-junta {
+    width: 596px;
+    
+
+}
+
+.container .games {
+    width: 600px;
+    margin-left: 80px;
+    
+}
+
+.games {
+    margin: 0px 100px 100px 0px;
+}
+
+.container p {
+    color: #ffffff;
+}
+
+.fundo-video {
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    overflow: hidden;
+    width: 1365px;
+    float: left;
+    justify-content: center;
+    background-color: blue;
+    
+
+    
+}
+
+.fundo-video .video {
+    width: 1349px;
+    height: 663px;
+    
+}
+
+.fundo-video:after {
+    content: "";
+    background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(0,0,0,0.5298494397759104) 50%, rgba(0,0,0,1) 80%);
+    height: 100%;
+    width: 1366px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
