@@ -38,6 +38,10 @@
     .fundo-video::after {
         background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.555) 27%, rgba(0,0,0,1) 90%);
     }
+    .contato .fechar-contato {
+        position: relative;
+        left: 233px;
+    }
     
 }
 
@@ -66,6 +70,10 @@
     
     .fundo-video {
         display: none;
+    }
+
+    .contato p {
+        margin:  0px 190px 0px 0px;
     }
 }
 
@@ -104,5 +112,44 @@
     
     .fundo-video {
         display: none;
+    }
+
+    .container .botao-junte {
+        position: relative;
+        right: 15px;
+        margin: 10px 0 0 0;
+
+    }
+
+    .contato {
+        width: 70%;
+        height: 50%;
+    }
+
+    .contato p {
+        font-size: 20px;
+        top: 160px;
+        left: 100px;
+        position: relative;
+        margin:  0px 150px 0px 0px;
+    }
+
+    .contato .fechar-contato {
+        position: relative;
+        left: 128px;
+    }
+}
+
+@media (max-width: 400px) {
+    .contato p {
+        font-size: 20px;
+        left: 90px;
+        top: 150px;
+        position: relative;
+        margin:  0px 155px 0px 0px;
+    }
+    .contato .fechar-contato {
+        position: relative;
+        left: 120px;
     }
 }
