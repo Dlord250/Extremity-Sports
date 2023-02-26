@@ -76,6 +76,24 @@ body {
     
 }
 
+.container .botao-junte {
+    background-color: blue;
+    margin: 20px;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fcfcfc;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.3s all ease-in-out;
+}
+
+.container .botao-junte:hover {
+    transform: scale(1.1);
+
+}
+
 .games {
     margin: 0px 100px 100px 0px;
 }
@@ -112,6 +130,22 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.contato {
+    background-color: rgb(2, 7, 34);
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border-color: #ffffff;
+    
+}
+.contato p {
+    position: relative;
+    top: 210px;
+    left: 140px;
+    font-size: 50px;
 }
 
 
