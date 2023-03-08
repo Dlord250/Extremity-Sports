@@ -217,9 +217,11 @@ body {
 
 }
 
-@media (max-width: 2800px) {
+@media (max-width: 1400px) {
     .container2 .dois-lados {
         width: 300px;
+        position: absolute;
+        opacity: 0;
         
         
     }

@@ -165,6 +165,8 @@
         width: 90%;
         position: relative;
         left: 20px;
+        opacity: 1;
+        visibility: visible;
         
         
     }
