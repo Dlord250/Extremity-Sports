@@ -15,6 +15,7 @@ body {
     margin: 0 auto;
     position: absolute;
     
+    
 
 
 }
@@ -97,6 +98,7 @@ body {
 
 .games {
     margin: 0px 100px 100px 0px;
+    
 }
 
 .container p {
@@ -182,6 +184,7 @@ body {
     position: relative;
     justify-content: space-between;
     overflow: hidden;
+    
 }
 
 .camisetas .costa {
@@ -205,6 +208,25 @@ body {
     height: 1000px;
     position: absolute;
 }
+@media (max-width: 800px) {
+    .container2 .dois-lados {
+        width: 300px;
+        
+        
+    }
+
+}
+
+@media (max-width: 2800px) {
+    .container2 .dois-lados {
+        width: 300px;
+        
+        
+    }
+
+}
+
+
 
 
 

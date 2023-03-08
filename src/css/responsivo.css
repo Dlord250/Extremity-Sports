@@ -76,6 +76,26 @@
     .contato p {
         margin:  0px 190px 0px 0px;
     }
+
+    .camisetas .dois-lados {
+        overflow: hidden;
+        width: 90%;
+        position: relative;
+        left: 20px;
+        
+        
+        
+    }
+    .camisetas .frente {
+        display: none;
+    }
+    .camisetas .costa {
+        display: none;
+    }
+
+    .camisetas::after {
+        display: none;
+    }
 }
 
 
@@ -125,6 +145,7 @@
     .contato {
         width: 70%;
         height: 50%;
+        
     }
 
     .contato p {
@@ -139,9 +160,27 @@
         position: relative;
         left: 128px;
     }
+
+    .container2 .dois-lados {
+        width: 90%;
+        position: relative;
+        left: 20px;
+        
+        
+    }
+    .camisetas .frente {
+        display: none;
+    }
+    .camisetas .costa {
+        display: none;
+    }
 }
 
 @media (max-width: 400px) {
+    .container {
+        overflow: hidden;
+    }
+
     .contato p {
         font-size: 20px;
         left: 90px;
@@ -153,4 +192,30 @@
         position: relative;
         left: 120px;
     }
+  
+    .camisetas .dois-lados {
+        overflow: hidden;
+        width: 90%;
+        position: relative;
+        left: 20px;
+        opacity: 1;
+        visibility: visible;
+        
+        
+        
+    }
+    .camisetas .frente {
+        display: none;
+    }
+    .camisetas .costa {
+        display: none;
+    }
+
+    .camisetas::after {
+        display: none;
+    }
+
+   
+
+    
 }
