@@ -5,15 +5,16 @@ body {
     /* background-color: black; */
 }
 
+
 .cabecalho {
     /* background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%); */
     display: flex;
     justify-content: space-between;
-    width: 1365px;
+    width: 1349px;
     height: 60px;
-
     margin: 0 auto;
     position: absolute;
+    
 
 
 }
@@ -44,7 +45,7 @@ body {
 }
 
 .container {
-    /* background-color: red; */
+    
     display: flex;
     justify-content: center;
     max-width: 1440px;
@@ -72,6 +73,7 @@ body {
 .container .games {
     width: 600px;
     margin-left: 80px;
+    
     
 }
 
@@ -109,7 +111,7 @@ body {
     width: 1365px;
     float: left;
     justify-content: center;
-    background-color: blue;
+   
     
 
     
@@ -125,10 +127,11 @@ body {
     content: "";
     background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(0,0,0,0.5298494397759104) 50%, rgba(0,0,0,1) 80%);
     height: 100%;
-    width: 1366px;
+    width: 1349px;
     position: absolute;
     top: 0;
     left: 0;
+    
 }
 
 .contato {
@@ -170,6 +173,40 @@ body {
     opacity: 1;
     visibility: visible;
 }
+
+.container2 {
+    background-color: black;
+}
+.container2 .camisetas {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.camisetas .costa {
+    width: 510px;
+    justify-content: space-between;
+    /* background-color: blanchedalmond; */
+    
+}
+
+.camisetas .frente {
+    width: 520px;
+    /* background-color: aqua; */
+    
+}
+
+.camisetas::after {
+    content: "";
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 80%, rgba(0,0,0,1) 100%);
+    width: 100vw;
+    height: 1000px;
+    position: absolute;
+}
+
+
 
 
 
