@@ -9,7 +9,7 @@ const botaoJunte = document.querySelector('.botao-junte')
 //Passo 2. identificar click no botao
 botaoJunte.addEventListener('click', () => {
  //Passo 4. abrir contato na tela
-contato.classList.add('aberto');});
+contato.classList.add('aberto')});
    
 
 //Passo 3. dar um jeito de pegar o elemento da modal no js

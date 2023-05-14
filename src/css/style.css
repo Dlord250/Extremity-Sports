@@ -71,11 +71,20 @@ body {
 
 }
 
+.logo-junta {
+    visibility: hidden;
+}
+
 .container .games {
     width: 600px;
     margin-left: 80px;
     
     
+    
+}
+
+.descricao {
+    visibility: hidden;
 }
 
 .container .botao-junte {
@@ -98,11 +107,14 @@ body {
 
 .games {
     margin: 0px 100px 100px 0px;
+    visibility: hidden;
+    
     
 }
 
 .container p {
     color: #ffffff;
+    
 }
 
 .fundo-video {
