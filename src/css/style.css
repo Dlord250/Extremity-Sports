@@ -240,6 +240,70 @@ body {
 
 }
 
+.tela-login {
+    background-image: linear-gradient(100deg,rgb(0, 0, 0),rgb(0, 0, 0));
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+    border: 5px solid rgb(6, 59, 204);
+    top: 50%;
+    left: 50%;
+    padding: 100px;
+    margin: 100px;
+    transform: translate(-70%,-70%);
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.tela-login input {
+    padding: 8px;
+    width: 250px;
+    outline: none;
+    
+}
+.tela-login h1 {
+    color: #ffffff;
+}
+
+.tela-login button {
+    padding: 10px;
+    width: 270px;
+    color: rgb(0, 174, 255);
+    background-color: rgb(12, 11, 11);
+    border: 2px solid;
+    cursor: pointer;
+    
+}
+
+.tela-login button:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.tela-login.aberto {
+    opacity: 1;
+    visibility: visible;
+}
+
+.fechar-login {
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tela-login .fechar-login {
+    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    cursor: pointer;
+}
+
+
+
+
 
 
 

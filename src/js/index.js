@@ -24,3 +24,17 @@ const fecharContato = document.querySelector('.fechar-contato');
 fecharContato.addEventListener('click', ()=> {
     //Passo 3. fechar contato na tela
 contato.classList.remove('aberto'); })
+
+
+const telalogin = document.querySelector('.login')
+
+telalogin.addEventListener('click', () => {
+    login.classList.add('aberto')
+});
+
+const login = document.querySelector('.tela-login');
+
+const fecharLogin = document.querySelector('.fechar-login');
+
+fecharLogin.addEventListener('click', ()=> {
+    login.classList.remove('aberto'); })
