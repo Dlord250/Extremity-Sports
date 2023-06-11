@@ -10,6 +10,8 @@ sr.reveal ('.logo-junta',{
 });
 
 sr.reveal ('.descricao',{duration: 5000});
-
 sr.reveal ('.contato.aberto',{duration: 1500})
+
+
+
 

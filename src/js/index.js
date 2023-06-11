@@ -37,4 +37,24 @@ const login = document.querySelector('.tela-login');
 const fecharLogin = document.querySelector('.fechar-login');
 
 fecharLogin.addEventListener('click', ()=> {
-    login.classList.remove('aberto'); })
+    login.classList.remove('aberto') 
+});
+
+const telaRegistro = document.querySelector('.registro')
+
+telaRegistro.addEventListener('click', () => {
+    registro.classList.add('aberto')
+});
+
+const registro = document.querySelector('.tela-registro');
+
+const fecharRegistro = document.querySelector('.fechar-registro');
+
+fecharRegistro.addEventListener('click' , ()=> {
+    registro.classList.remove('aberto')
+});
+
+
+
+
+

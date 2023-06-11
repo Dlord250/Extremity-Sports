@@ -272,8 +272,7 @@ body {
     color: rgb(0, 174, 255);
     background-color: rgb(12, 11, 11);
     border: 2px solid;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 .tela-login button:hover {
@@ -300,6 +299,215 @@ body {
     left: 230px;
     cursor: pointer;
 }
+
+.tela-registro {
+    background-image: linear-gradient(100deg,rgb(0, 0, 0),rgb(0, 0, 0));
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+    border: 5px solid rgb(6, 59, 204);
+    top: 50%;
+    left: 50%;
+    padding: 100px;
+    margin: 100px;
+    transform: translate(-70%,-70%);
+    align-items: center;
+    justify-content: center;
+    visibility: hidden; 
+}
+
+.tela-registro input {
+    padding: 8px;
+    width: 250px;
+    outline: none;
+    
+}
+
+.tela-registro h1 {
+    color: #ffffff;
+}
+
+.tela-registro button {
+    padding: 10px;
+    width: 270px;
+    color: rgb(0, 174, 255);
+    background-color: rgb(12, 11, 11);
+    border: 2px solid;
+    cursor: pointer; 
+}
+
+.tela-registro button:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.tela-registro.aberto {
+    opacity: 1;
+    visibility: visible;
+}
+
+.fechar-registro {
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.tela-registro .fechar-registro {
+    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    cursor: pointer;
+}
+
+
+
+
+
+.games-on {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+.texto-games {
+    
+    position: absolute;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    left: 450px;
+    top: 1400px;
+    font-size: 30px;
+}
+
+.games-ativos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+}
+
+
+.speed-drifters img  {
+    width: 400px;
+    height: 400px;
+    /* background-color: rebeccapurple; */
+    margin: 80px 10px 10px 10px;
+    cursor: pointer;
+    
+}
+
+.speed-drifters:hover {
+    transform: scale(1.1);
+    transition: 0.2s all ease-in-out;
+}
+
+.clash-of-clans img {
+    width: 320px;
+    height: 220px;
+    /* background-color: blue; */
+    cursor: pointer;
+    margin: 30px 10px 10px 10px;
+
+    
+}
+.clash-of-clans:hover {
+    transform: scale(1.1);
+    transition: 0.2s all ease-in-out;
+}
+
+.free-fire img {
+    width: 400px;
+    height: 400px;
+    /* background-color: red; */
+    cursor: pointer;
+    margin: 30px 10px 10px 10px;
+    
+}
+.free-fire:hover {
+    transform: scale(1.1);
+    transition: 0.2s all ease-in-out;
+}
+
+.informacao-final {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 250px;
+}
+
+.informacao-final hr {
+    width: 90%;
+    height: 1%;
+    position: relative;
+    left: 65px;
+    top: 5px;
+    background-color: #0180ca;
+    border: none;
+
+}
+
+.informacao-final img {
+    left: 1150px;
+    top: 70px;
+}
+
+
+.youtube-logo {
+    width: 35px;
+    position: relative;
+    margin: 0px 10px 3px 0px;
+    cursor: pointer;
+}
+
+.instagram-logo {
+    width: 25px;
+    position: relative;
+    margin: 0px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.discord-logo {
+    width: 25px;
+    position: relative;
+    margin: 0px 0px 6px 0px;
+    cursor: pointer;
+}
+
+.service-politica {
+    color: #ffffff;
+    position: relative;
+    height: 125px;
+    display: flex;
+    
+}
+
+.service-politica p {
+    margin: 0px 0px 0px 50px;
+    left: 770px;
+    top: 60px;
+    position: relative; 
+    color: #fff;
+}
+
+a:link {
+    text-decoration: none;  
+}
+
+
+.botao-inicio a {
+    font: bolder;
+    background-color: #0180ca;
+    position: relative;
+    width: 14px;
+    left: 60px;
+    padding: 5px 15px 5px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 
 
 
