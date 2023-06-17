@@ -6,6 +6,10 @@ body {
 
 }
 
+main br {
+    background-color: black;
+}
+
 
 .cabecalho {
     /* background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%); */
