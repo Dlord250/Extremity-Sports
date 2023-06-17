@@ -43,7 +43,63 @@
         position: relative;
         left: 233px;
     }
+
     
+    
+}
+
+@media (max-width: 1084px) {
+    .games-on  dir {
+        height: 40%;
+        
+    }
+
+    .texto-games  {
+        font-size: 30px;
+        margin: 0px 0px 60px 0px;
+        align-items: center; 
+        justify-content: center;
+        text-align: center;
+    }
+
+    .clash-of-clans img {
+        width: 300px;
+        
+    }
+
+    .speed-drifters img {
+        width: 300px;
+        height: auto;
+    }
+
+    .free-fire img {
+        width: 300px;
+        height: auto;
+    }
+
+
+    .informacao-final {
+        width: 100%;
+        
+    }
+
+    .informacao-final hr {
+        left: 50px;
+    }
+
+    .service-politica p   {
+        left: 500px;
+        margin: 10px;
+    }
+
+    .redes-sociais img {
+        left: 830px;
+    }
+
+    .botao-inicio a {
+       left: 25px;
+       top: 10px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -86,9 +142,28 @@
         
         
     }
-    .camisetas .frente {
+
+    .camisetas .dois-lados {
+        visibility: visible;
+        opacity: 1;
+        width: 100%;
+    }
+
+    .camisetas .frente  {
         display: none;
     }
+   
+
+    .camisetas .costa2 {
+        display: none;
+        
+    }
+
+    .costa2 {
+        float: right;
+        left: 0;
+    }
+   
     .camisetas .costa {
         display: none;
     }
@@ -96,6 +171,60 @@
     .camisetas::after {
         display: none;
     }
+
+    .games-on  dir   {
+        flex-direction: column;
+        height: 40%;
+        
+    }
+
+    .texto-games  {
+        font-size: 20px;
+        margin: 0px 0px 60px 0px;
+        align-items: center; 
+        justify-content: center;
+        text-align: center;
+    }
+
+    .clash-of-clans img {
+        width: 300px;
+        
+    }
+
+    .speed-drifters img {
+        width: 300px;
+        height: auto;
+    }
+
+    .free-fire img {
+        width: 300px;
+        height: auto;
+    }
+
+
+    .informacao-final {
+        width: 100%;
+        
+    }
+
+    .informacao-final hr {
+        
+        left: 30px;
+    }
+
+    .service-politica p   {
+        left: 160px;
+        margin: 10px;
+    }
+
+    .redes-sociais img {
+        left: 500px;
+    }
+
+    .botao-inicio a {
+       left: 25px;
+       top: 10px;
+    } 
 }
 
 
@@ -176,6 +305,60 @@
     .camisetas .costa {
         display: none;
     }
+
+    .games-on  dir   {
+        flex-direction: column;
+        height: 40%;
+        
+    }
+
+    .texto-games  {
+        font-size: 20px;
+        margin: 0px 0px 60px 0px;
+        align-items: center; 
+        justify-content: center;
+        text-align: center;
+    }
+
+    .clash-of-clans img {
+        width: 300px;
+        
+    }
+
+    .speed-drifters img {
+        width: 300px;
+        height: auto;
+    }
+
+    .free-fire img {
+        width: 300px;
+        height: auto;
+    }
+
+
+    .informacao-final {
+        width: 100%;
+        
+    }
+
+    .informacao-final hr {
+        width: 80%;
+        left: 30px;
+    }
+
+    .service-politica p   {
+        left: 0px;
+        margin: 10px;
+    }
+
+    .redes-sociais img {
+        left: 200px;
+    }
+
+    .botao-inicio a {
+       left: 25px;
+       top: 10px;
+    } 
 }
 
 @media (max-width: 400px) {
@@ -217,7 +400,58 @@
         display: none;
     }
 
-   
+    .games-on  dir   {
+        flex-direction: column;
+        height: 40%;
+        
+    }
 
-    
+    .texto-games  {
+        font-size: 20px;
+        margin: 0px 0px 60px 0px;
+        align-items: center; 
+        justify-content: center;
+        text-align: center;
+    }
+
+    .clash-of-clans img {
+        width: 300px;
+        
+    }
+
+    .speed-drifters img {
+        width: 300px;
+        height: auto;
+    }
+
+    .free-fire img {
+        width: 300px;
+        height: auto;
+    }
+
+
+    .informacao-final {
+        width: 100%;
+        
+    }
+
+    .informacao-final hr {
+        width: 80%;
+        left: 30px;
+    }
+
+    .service-politica p   {
+        left: 0px;
+        margin: 10px;
+    }
+
+    .redes-sociais img {
+        left: 200px;
+    }
+
+    .botao-inicio a {
+       left: 25px;
+       top: 10px;
+    } 
+
 }

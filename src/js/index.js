@@ -26,33 +26,33 @@ fecharContato.addEventListener('click', ()=> {
 contato.classList.remove('aberto'); })
 
 
-const telalogin = document.querySelector('.login')
+// const telalogin = document.querySelector('.login')
 
-telalogin.addEventListener('click', () => {
-    login.classList.add('aberto')
-});
+// telalogin.addEventListener('click', () => {
+//     login.classList.add('aberto')
+// });
 
-const login = document.querySelector('.tela-login');
+// const login = document.querySelector('.tela-login');
 
-const fecharLogin = document.querySelector('.fechar-login');
+// const fecharLogin = document.querySelector('.fechar-login');
 
-fecharLogin.addEventListener('click', ()=> {
-    login.classList.remove('aberto') 
-});
+// fecharLogin.addEventListener('click', ()=> {
+//     login.classList.remove('aberto') 
+// });
 
-const telaRegistro = document.querySelector('.registro')
+// const telaRegistro = document.querySelector('.registro')
 
-telaRegistro.addEventListener('click', () => {
-    registro.classList.add('aberto')
-});
+// telaRegistro.addEventListener('click', () => {
+//     registro.classList.add('aberto')
+// });
 
-const registro = document.querySelector('.tela-registro');
+// const registro = document.querySelector('.tela-registro');
 
-const fecharRegistro = document.querySelector('.fechar-registro');
+// const fecharRegistro = document.querySelector('.fechar-registro');
 
-fecharRegistro.addEventListener('click' , ()=> {
-    registro.classList.remove('aberto')
-});
+// fecharRegistro.addEventListener('click' , ()=> {
+//     registro.classList.remove('aberto')
+// });
 
 
 
