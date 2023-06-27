@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins';
-    max-width: 1440px;
+    max-width: 1980px;
     background-position: center top;
     background-color: black;
 
@@ -15,7 +15,7 @@ main br {
     /* background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%); */
     display: flex;
     justify-content: space-between;
-    width: 1349px;
+    width: 100%;
     height: 60px;
     margin: 0 auto;
     position: absolute;
@@ -54,7 +54,7 @@ main br {
     
     display: flex;
     justify-content: center;
-    max-width: 1440px;
+    max-width: 1980px;
     height: calc(100vh - 60px);
     margin: 0 auto;
     align-items: center;
@@ -63,17 +63,13 @@ main br {
 }
 .container .informacao {
     text-align: center;
-    width: 85%;
-    font-size: 18px;
-    margin: 0 0 0px 50px;
-    
-    
+    width: 90%;
+    font-size: 20px;
+    margin:  50px;
     
 }
 .container .logo-junta {
-    width: 596px;
-    
-
+    width: 796px;
 }
 
 .logo-junta {
@@ -113,7 +109,7 @@ main br {
     background-color: blue;
     margin: 20px 0 0 0 ;
     padding: 15px;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
     font-weight: bold;
     color: #fcfcfc;
@@ -144,18 +140,20 @@ main br {
     z-index: -1;
     display: flex;
     overflow: hidden;
-    width: 1365px;
+    width: 100%;
     float: left;
     justify-content: center;
-   
-    
-
-    
 }
 
 .fundo-video .video {
-    width: 1349px;
-    height: 663px;
+    width: 100%;
+    height: 100%;
+    
+}
+.fundo-video {
+    /* background-color: blue; */
+    width: 100%;
+    height: 100%;
     
 }
 
@@ -163,7 +161,7 @@ main br {
     content: "";
     background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(0,0,0,0.5298494397759104) 50%, rgba(0,0,0,1) 80%);
     height: 100%;
-    width: 1349px;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -173,8 +171,8 @@ main br {
 .contato {
     background-color: rgb(2, 7, 34);
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border-radius: 10px;
     border-color: #ffffff;
     visibility:hidden;
@@ -224,17 +222,19 @@ main br {
     
 }
 
+.dois-lados {
+    display: none;
+}
+
 .camisetas .costa {
-    width: 510px;
+    width: 610px;
     justify-content: space-between;
     /* background-color: blanchedalmond; */
     
 }
 
-
-
 .camisetas .frente {
-    width: 520px;
+    width: 620px;
     /* background-color: aqua; */
     
 }
@@ -247,22 +247,8 @@ main br {
     height: 1000px;
     position: absolute;
 }
-@media (max-width: 800px) {
-    .container2 .dois-lados {
-        width: 300px;
-        
-        
-    }
 
-}
 
-@media (max-width: 1400px) {
-    .container2 .dois-lados {
-        width: 300px;
-        position: absolute;
-        opacity: 0;
-    }
-}
 
 .games-on {
     background-color: rgb(0, 0, 0);
@@ -279,7 +265,7 @@ main br {
     color: #ffffff;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 40px;
     display: flex;
 }
 
@@ -288,7 +274,7 @@ main br {
     align-items: center;
     justify-content: center;
     background-color: rgb(0, 0, 0);
-    height: 700px;
+    height: 800px;
 }
 
 
@@ -343,7 +329,7 @@ main br {
     width: 90%;
     height: 1%;
     position: relative;
-    left: 65px;
+    left: 90px;
     top: 5px;
     background-color: #0180ca;
     border: none;
@@ -351,7 +337,7 @@ main br {
 }
 
 .informacao-final img {
-    left: 1150px;
+    left: 1700px;
     top: 70px;
 }
 
@@ -387,7 +373,7 @@ main br {
 
 .service-politica p {
     margin: 0px 0px 0px 50px;
-    left: 770px;
+    left: 1370px;
     top: 60px;
     position: relative; 
     color: #fff;

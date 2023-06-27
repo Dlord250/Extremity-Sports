@@ -1,105 +1,117 @@
-
-@media (max-width: 1400px) {
-    .fundo-video {
-        background-color: blue;
-        width: 100%;
-        height: 100%;
-        
+@media (max-width: 1440px) {
+    .informacao .logo-junta  {
+        width: 496px; 
     }
 
-    .fundo-video .video {
-        height: 740px;
-
-    }
-    .cabecalho {
-        width: 100%;
+    .informacao .descricao {
+        font-size: 12px;
     }
 
-    .container {
-        justify-content: center; 
-        padding: 50px 20px 0px 0px;
-    }
-
-    
     .container .games {
-        width: 40%;
-        margin-right: 20px;
-
+        width: 500px;
+        margin-left: 80px;
     }
-
-    .container .logo-junto {
-        width: 10%;
-    }
-
     
-    .container .informacao {
-        width: 50%;
+    .container .botao-junte {
+        font-size: 14px;
     }
 
-    .fundo-video::after {
-        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.555) 27%, rgba(0,0,0,1) 90%);
-    }
-    .contato .fechar-contato {
-        position: relative;
-        left: 233px;
+    .container2 .costa {
+        width: 510px;
     }
 
+    .container2 .frente {
+        width: 520px;
+    }
+
+    .texto-games p {
+        font-size: 25px;
+    }
+
+    .informacao-final hr {
+        left: 65px;
+    }
     
+    .informacao-final img {
+        left: 1200px;
+        top: 70px;
+    }
+    
+    .service-politica p {
+        left: 800px;
+    }
     
 }
 
-@media (max-width: 1084px) {
-    .games-on  dir {
-        height: 40%;
-        
+@media (max-width: 1080px) {
+
+    .video-fundo {
+        width: 100%;
+        height: 100%;
     }
 
-    .texto-games  {
-        font-size: 30px;
-        margin: 0px 0px 60px 0px;
-        align-items: center; 
-        justify-content: center;
-        text-align: center;
+    .fundo-video .video {
+        width: auto;
+        height: auto;
+    }
+
+    .informacao .logo-junta  {
+        width: 400px; 
+    }
+
+    .informacao .descricao {
+        font-size: 15px;
+    }
+
+    .container .games {
+        width: 450px;
+        margin-left: 80px;
+    }
+    
+    .container .botao-junte {
+        font-size: 18px;
+    }
+
+    .container2 .costa {
+        width: 510px;
+    }
+
+    .container2 .frente {
+        width: 520px;
+    }
+
+    .texto-games p {
+        font-size: 25px;
+    }
+
+    .speed-drifters img  {
+        width: 300px;
+        height: 300px;
     }
 
     .clash-of-clans img {
-        width: 300px;
-        
-    }
-
-    .speed-drifters img {
-        width: 300px;
-        height: auto;
+        width: 220px;
+        height: 120px;
     }
 
     .free-fire img {
         width: 300px;
-        height: auto;
-    }
-
-
-    .informacao-final {
-        width: 100%;
-        
+        height: 300px;
     }
 
     .informacao-final hr {
-        left: 50px;
+        left: 45px;
     }
-
-    .service-politica p   {
-        left: 500px;
-        margin: 10px;
+    
+    .informacao-final img {
+        left: 850px;
+        top: 70px;
     }
-
-    .redes-sociais img {
-        left: 830px;
+    
+    .service-politica p {
+        left: 400px;
     }
-
-    .botao-inicio a {
-       left: 25px;
-       top: 10px;
-    }
+    
 }
 
 @media (max-width: 800px) {
@@ -107,13 +119,9 @@
         background-color: black;
     }
 
-    .cabecalho {
-        width: 100%;
-    }
 
     .container {
         flex-direction: column;
-        
     }
 
     .container .logo-junta{
@@ -128,6 +136,8 @@
     .fundo-video {
         display: none;
     }
+
+    
 
     .contato p {
         margin:  0px 190px 0px 0px;
@@ -208,7 +218,6 @@
     }
 
     .informacao-final hr {
-        
         left: 30px;
     }
 
@@ -227,171 +236,70 @@
     } 
 }
 
-
-@media (max-width: 600px) {
+@media (max-width: 420px) {
     body {
         background-color: black;
+        overflow-x: hidden;
     }
 
-    .cabecalho {
-        width: 100%;
-    }
 
     .container {
         flex-direction: column;
-        padding: 50px 20px 0px 0px;
-        
     }
 
-    .container .logo-junta{
-        width: 250px;
-        position: relative;
-        right: 40px;
-    }
-    
-    .container p {
-        position: relative;
-        right: 15px;
+
+    .container .informacao{
+        margin: 0 40px 0 0px;
         
     }
     
     .container .games {
-        width: 85%;
-        top: 10px; 
+        width: 350px;
+        margin: 50px 50px 0 0;
+        overflow: hidden;
+       
     }
     
     .fundo-video {
         display: none;
     }
 
-    .container .botao-junte {
-        position: relative;
-        right: 15px;
-        margin: 10px 0 0 0;
-
-    }
-
-    .contato {
-        width: 70%;
-        height: 50%;
-        
-    }
+    
 
     .contato p {
-        font-size: 20px;
-        top: 160px;
-        left: 100px;
-        position: relative;
-        margin:  0px 150px 0px 0px;
+        margin:  0px 190px 0px 0px;
     }
 
-    .contato .fechar-contato {
-        position: relative;
-        left: 128px;
-    }
-
-    .container2 .dois-lados {
-        width: 90%;
-        position: relative;
-        left: 20px;
-        opacity: 1;
-        visibility: visible;
-        
-        
-    }
-    .camisetas .frente {
-        display: none;
-    }
-    .camisetas .costa {
-        display: none;
-    }
-
-    .games-on  dir   {
-        flex-direction: column;
-        height: 40%;
-        
-    }
-
-    .texto-games  {
-        font-size: 20px;
-        margin: 0px 0px 60px 0px;
-        align-items: center; 
-        justify-content: center;
-        text-align: center;
-    }
-
-    .clash-of-clans img {
-        width: 300px;
-        
-    }
-
-    .speed-drifters img {
-        width: 300px;
-        height: auto;
-    }
-
-    .free-fire img {
-        width: 300px;
-        height: auto;
-    }
-
-
-    .informacao-final {
-        width: 100%;
-        
-    }
-
-    .informacao-final hr {
-        width: 80%;
-        left: 30px;
-    }
-
-    .service-politica p   {
-        left: 0px;
-        margin: 10px;
-    }
-
-    .redes-sociais img {
-        left: 200px;
-    }
-
-    .botao-inicio a {
-       left: 25px;
-       top: 10px;
-    } 
-}
-
-@media (max-width: 400px) {
-    .container {
-        overflow: hidden;
-    }
-
-    .contato p {
-        font-size: 20px;
-        left: 90px;
-        top: 150px;
-        position: relative;
-        margin:  0px 155px 0px 0px;
-    }
-    .contato .fechar-contato {
-        position: relative;
-        left: 120px;
-    }
-  
     .camisetas .dois-lados {
         overflow: hidden;
         width: 90%;
         position: relative;
         left: 20px;
-        opacity: 1;
-        visibility: visible;
         
         
         
     }
-    .camisetas .frente {
+
+    .camisetas .dois-lados {
+        display: block;
+        width: 90%;
+    }
+
+    .camisetas .frente  {
         display: none;
     }
+   
+
+    .camisetas .costa2 {
+        display: none;
+        
+    }
+
+    .costa2 {
+        float: right;
+        left: 0;
+    }
+   
     .camisetas .costa {
         display: none;
     }
@@ -406,8 +314,8 @@
         
     }
 
-    .texto-games  {
-        font-size: 20px;
+    .texto-games p  {
+        font-size: 30px;
         margin: 0px 0px 60px 0px;
         align-items: center; 
         justify-content: center;
@@ -416,6 +324,7 @@
 
     .clash-of-clans img {
         width: 300px;
+        height: 200px;
         
     }
 
@@ -436,8 +345,7 @@
     }
 
     .informacao-final hr {
-        width: 80%;
-        left: 30px;
+        left: 20px;
     }
 
     .service-politica p   {
@@ -446,12 +354,18 @@
     }
 
     .redes-sociais img {
-        left: 200px;
+        left: 250px;
     }
 
     .botao-inicio a {
        left: 25px;
        top: 10px;
     } 
-
 }
+
+@media (max-width: 395px) {
+    .texto-games p {
+        font-size: 25px;
+    }
+}
+
