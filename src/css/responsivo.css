@@ -1,87 +1,42 @@
 @media (max-width: 1440px) {
-    .informacao .logo-junta  {
-        width: 496px; 
+    .container .informacao {
+        width: 50%;
     }
 
-    .informacao .descricao {
-        font-size: 12px;
+    .logo-junta {
+        width: 700px;
     }
 
-    .container .games {
-        width: 500px;
-        margin-left: 80px;
-    }
-    
-    .container .botao-junte {
-        font-size: 14px;
+    .games {
+        width: 40%;
+        margin: 20px;
     }
 
-    .container2 .costa {
-        width: 510px;
-    }
-
-    .container2 .frente {
-        width: 520px;
-    }
-
-    .texto-games p {
-        font-size: 25px;
-    }
-
-    .informacao-final hr {
-        left: 65px;
-    }
-    
-    .informacao-final img {
-        left: 1200px;
-        top: 70px;
-    }
-    
     .service-politica p {
         left: 800px;
     }
-    
+     .redes-sociais img {
+        left: 1200px;
+    }
 }
 
-@media (max-width: 1080px) {
-
-    .video-fundo {
+@media  (max-width: 1200px) {
+    
+   
+    .fundo-video {
+        /* background-color: blue; */
         width: 100%;
-        height: 100%;
+        height: 100%; 
     }
-
     .fundo-video .video {
         width: auto;
         height: auto;
+        
     }
 
-    .informacao .logo-junta  {
-        width: 400px; 
-    }
-
-    .informacao .descricao {
-        font-size: 15px;
-    }
-
-    .container .games {
-        width: 450px;
-        margin-left: 80px;
-    }
-    
-    .container .botao-junte {
-        font-size: 18px;
-    }
-
-    .container2 .costa {
-        width: 510px;
-    }
-
-    .container2 .frente {
-        width: 520px;
-    }
-
-    .texto-games p {
-        font-size: 25px;
+    .costa {
+        right: 200px;
+        position: relative;
     }
 
     .speed-drifters img  {
@@ -97,124 +52,70 @@
     .free-fire img {
         width: 300px;
         height: 300px;
+        top: 20px;
+        position: relative;
     }
 
-    .informacao-final hr {
-        left: 45px;
-    }
-    
-    .informacao-final img {
-        left: 850px;
-        top: 70px;
-    }
-    
     .service-politica p {
         left: 400px;
+    }
+     .redes-sociais img {
+        left: 850px;
     }
     
 }
 
 @media (max-width: 800px) {
     body {
-        background-color: black;
+        flex-wrap: wrap;
+        overflow-x: scroll;
+        overflow-x: hidden;
     }
-
 
     .container {
         flex-direction: column;
-    }
-
-    .container .logo-junta{
-        width: 95%;
-    }
     
-    .container .games {
-        width: 400px;
-        margin: 50px 0 0 0;
-    }
-    
-    .fundo-video {
-        display: none;
+        
     }
 
-    
-
-    .contato p {
-        margin:  0px 190px 0px 0px;
-    }
-
-    .camisetas .dois-lados {
-        overflow: hidden;
-        width: 90%;
+    .logo-junta {
+        width: 500px;
+        right: 70px;
+        margin-top: 70px;
         position: relative;
-        left: 20px;
-        
-        
-        
     }
 
-    .camisetas .dois-lados {
-        visibility: visible;
-        opacity: 1;
-        width: 100%;
+    .games {
+        width: 400px;
     }
 
-    .camisetas .frente  {
-        display: none;
-    }
-   
-
-    .camisetas .costa2 {
-        display: none;
-        
-    }
-
-    .costa2 {
-        float: right;
-        left: 0;
-    }
-   
-    .camisetas .costa {
+    .frente, .costa {
         display: none;
     }
 
-    .camisetas::after {
-        display: none;
+    .dois-lados {
+        display: block;
+        width: 650px;
     }
 
-    .games-on  dir   {
+    .texto-games {
+        top: 0;
+    }
+
+    
+    .games-on .games-ativos {
         flex-direction: column;
-        height: 40%;
         
     }
 
-    .texto-games  {
-        font-size: 20px;
-        margin: 0px 0px 60px 0px;
-        align-items: center; 
-        justify-content: center;
-        text-align: center;
+    .games-ativos {
+        top: 300px;
+
     }
 
     .clash-of-clans img {
         width: 300px;
-        
-    }
-
-    .speed-drifters img {
-        width: 300px;
-        height: auto;
-    }
-
-    .free-fire img {
-        width: 300px;
-        height: auto;
-    }
-
-
-    .informacao-final {
-        width: 100%;
-        
+        height: 212px;
     }
 
     .informacao-final hr {
@@ -234,114 +135,36 @@
        left: 25px;
        top: 10px;
     } 
+
 }
 
 @media (max-width: 420px) {
-    body {
-        background-color: black;
-        overflow-x: hidden;
-    }
-
-
-    .container {
-        flex-direction: column;
-    }
-
-
-    .container .informacao{
-        margin: 0 40px 0 0px;
-        
-    }
-    
-    .container .games {
-        width: 350px;
-        margin: 50px 50px 0 0;
-        overflow: hidden;
-       
-    }
-    
     .fundo-video {
         display: none;
     }
 
-    
-
-    .contato p {
-        margin:  0px 190px 0px 0px;
+    .logo-junta {
+        width: 350px;
     }
 
-    .camisetas .dois-lados {
-        overflow: hidden;
-        width: 90%;
-        position: relative;
-        left: 20px;
-        
-        
-        
+    .games {
+        width: 250px;
+        margin: 5px;
     }
 
-    .camisetas .dois-lados {
-        display: block;
-        width: 90%;
-    }
-
-    .camisetas .frente  {
-        display: none;
-    }
-   
-
-    .camisetas .costa2 {
-        display: none;
-        
-    }
-
-    .costa2 {
-        float: right;
-        left: 0;
-    }
-   
-    .camisetas .costa {
-        display: none;
+    .dois-lados {
+        width: 350px;
+        margin: 20px;
     }
 
     .camisetas::after {
-        display: none;
-    }
-
-    .games-on  dir   {
-        flex-direction: column;
-        height: 40%;
-        
-    }
-
-    .texto-games p  {
-        font-size: 30px;
-        margin: 0px 0px 60px 0px;
-        align-items: center; 
-        justify-content: center;
-        text-align: center;
-    }
-
-    .clash-of-clans img {
-        width: 300px;
-        height: 200px;
-        
-    }
-
-    .speed-drifters img {
-        width: 300px;
-        height: auto;
-    }
-
-    .free-fire img {
-        width: 300px;
-        height: auto;
-    }
-
-
-    .informacao-final {
         width: 100%;
-        
+        height: 1000px;
+       
+    }
+
+    .texto-games {
+        font-size: 24px;
     }
 
     .informacao-final hr {
@@ -364,8 +187,121 @@
 }
 
 @media (max-width: 395px) {
+
+    .container .informacao{
+        font-size: 15px;
+    }
+
+    .logo-junta {
+        width: 290px;
+        right: 55px;
+    }
+
+    .games {
+        width: 250px;
+        margin: 5px;
+    }
+
+    .dois-lados {
+        width: 320px;
+        margin: 10px;
+    }
+
     .texto-games p {
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    .redes-sociais img {
+        left: 220px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 1440px) {
+    .container {
+        display: flex;
+        align-items: center; 
+    }
+
+    .container .informacao {
+        width: 600px;
+        font-size: 18px;
+    }
+
+    .container .logo-junta {
+        width: 500px;
+    }
+
+    .games {
+        width: 650px;
+        margin: 100px;
     }
 }
 
+@media (max-width: 1200px)  {
+    .container .informacao {
+        width: 50%;
+        font-size: 16px;
+    }
+
+    .container .logo-junta {
+        width: 500px;
+        margin: 0px;
+        
+    }
+
+    .container .games {
+        width: 400px;
+        margin: 0 
+    }
+    
+    .video-fundo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .fundo-video .video {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+       margin: auto;
+        
+    }
+
+
+    .container .informacao {
+        right: 40px;
+        position: relative;
+        background-color: blue;
+    }
+
+    .informacao .logo-junta {
+       position: relative;
+       right: 90px;
+       background-color: brown;
+    }
+
+    .games {
+        position: relative;
+        right: 50px;
+        background-color: aqua;
+    }
+
+    .fundo-video {
+        display: none;
+    }  
+} */
